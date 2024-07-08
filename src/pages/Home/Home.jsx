@@ -6,6 +6,7 @@ import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TiltleCards from '../../components/TilteCards/TiltleCards'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <TiltleCards title={"Upcoming"}/>
         <TiltleCards title={"Top Picks For You"}/>
       </div>
+      <Footer/>
     </div>
   )
 }
