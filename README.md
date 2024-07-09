@@ -5,10 +5,11 @@ Netflix Clone using React and Firebase
 ```bash
 git clone https://github.com/ars1mm/netflix-app.git
 ```
-### To Install Dependecies use:
+### To Install Dependencies use:
 ```bash
 npm install
 ```
+This will install neccesary dependencies listed on package.json
 ### package.json should look like this:
 ```json
 {
