@@ -24,8 +24,10 @@ This will install neccesary dependencies listed on package.json
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.12.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-firebase-hooks": "^5.1.1",
     "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
