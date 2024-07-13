@@ -4,12 +4,12 @@ import { createUserWithEmailAndPassword, getAuth, signInWithCredential, signInWi
 import { addDoc, collection, getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyATUjeQR1pwb2L0oS9sUbSd2UtuYyANVaM",
-  authDomain: "netflix-clone-3cf73.firebaseapp.com",
-  projectId: "netflix-clone-3cf73",
-  storageBucket: "netflix-clone-3cf73.appspot.com",
-  messagingSenderId: "202071383555",
-  appId: "1:202071383555:web:4516d82bd3e8175267f836"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
