@@ -5,7 +5,7 @@ Netflix Clone using React and Firebase for Authentication
 ```powershell
 git clone https://github.com/ars1mm/netflix-app.git
 ```
-After cloning the repository, you will need to setup .env so for that use the following commands
+After cloning the repository, you will need to setup .env so for that use the following commands, or simply create a .env file in your root directory
 
 ```powershell
 cd .\netflix_clone\
