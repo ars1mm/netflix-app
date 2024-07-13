@@ -12,6 +12,7 @@ cd .\netflix_clone\
 New-Item -Path ".\.env" -ItemType "File"
 ```
 ### After adding the .env, you will have to provide your own Keys!
+Keys are necessary in order to run this project, you can get the keys from creating a Firebase App
 Your .env file should look like this
 ```env
 VITE_API_KEY= REPLACE THIS 
@@ -25,7 +26,7 @@ VITE_APP_ID= REPLACE THIS
 ```powershell
 npm install
 ```
-To run this use:
+To run this project locally use:
 ```powershell
 npm run dev
 ```
