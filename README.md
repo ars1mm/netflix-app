@@ -1,13 +1,32 @@
 # Netflix Clone
+Netflix Clone using React and Firebase for Authentication
 
-Netflix Clone using React and Firebase
 ### Clone this Repository using:
-```bash
+```powershell
 git clone https://github.com/ars1mm/netflix-app.git
 ```
+After cloning the repository, you will need to setup .env so for that use the following commands
+'''powershell
+cd .\netflix_clone\
+New-Item -Path ".\.env" -ItemType "File"
+'''
+### After adding the .env, you will have to provide your own Keys!
+Your .env file should look like this
+```env
+VITE_API_KEY= REPLACE THIS 
+VITE_AUTH_DOMAIN= REPLACE THIS 
+VITE_PROJECT_ID= REPLACE THIS
+VITE_STORAGE_BUCKET= REPLACE THIS
+VITE_MESSAGING_SENDER_ID= REPLACE THIS
+VITE_APP_ID= REPLACE THIS
+```
 ### To Install Dependencies use:
-```bash
+```powershell
 npm install
+```
+To run this use:
+```powershell
+npm run dev
 ```
 This will install neccesary dependencies listed on package.json
 ### package.json should look like this:
@@ -24,6 +43,7 @@ This will install neccesary dependencies listed on package.json
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "firebase": "^10.12.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
